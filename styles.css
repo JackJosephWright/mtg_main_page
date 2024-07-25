@@ -1,0 +1,143 @@
+/* Reset some default styling */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 2em;
+    text-align: center;
+    margin-bottom: 2em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+main {
+    padding: 2em;
+    max-width: 800px;
+    margin: 0 auto; /* Centers the container */
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+h1, h2 {
+    font-weight: 700;
+    margin-bottom: 0.5em;
+}
+
+h2 {
+    color: #0077cc;
+    border-bottom: 2px solid #0077cc;
+    padding-bottom: 0.3em;
+    margin-top: 1em;
+}
+
+.small-img {
+    max-width: 70%; /* Adjust this value as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin: 20px 0;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+ul {
+    list-style-type: disc; /* Added disc for list styling */
+    padding-left: 20px; /* Added padding for indentation */
+}
+
+li {
+    margin-bottom: 0.5em;
+}
+
+a {
+    color: #0077cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    margin-top: 2em;
+}
+
+/* Blockquote styling */
+blockquote {
+    border-left: 5px solid #0077cc;
+    background-color: #e7f3ff;
+    margin: 20px 0;
+    padding: 10px 20px;
+    font-style: italic;
+    position: relative;
+}
+
+blockquote:before {
+    content: "“";
+    font-size: 3em;
+    color: #0077cc;
+    position: absolute;
+    left: 10px;
+    top: -10px;
+}
+
+blockquote p {
+    margin: 0;
+}
+.image-row {
+    display: flex;
+    justify-content: space-around; /* Adjust spacing between images as needed */
+    margin: 20px 0; /* Optional margin for spacing */
+}
+
+.curve-image {
+    border: 2px solid #0077cc; /* Border color and thickness */
+    border-radius: 8px; /* Optional: rounds the corners of the border */
+    margin: 0 10px; /* Optional: spacing between images */
+    max-width: 30%; /* Adjust this percentage based on the desired image size */
+    height: auto; /* Maintain aspect ratio */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2em 0;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #0077cc;
+    color: #fff;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
